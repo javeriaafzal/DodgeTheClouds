@@ -1,0 +1,31 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+body	{ 
+	
+	width: 560px; 
+	height: 400px; 
+	background-image: url(blue.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 20s linear infinite;
+}
+
+#plane {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    z-index:15;
+    
+    
+
+   
+     transition: width 2s;
+}
+
+div:hover {
+   transform: translateY(200px);
+   
+}
